@@ -25,6 +25,9 @@ public class Main {
             System.out.println("5 - Показать самую большую сумму расходов за неделю");
             System.out.println("0 - Выход");
             System.out.println("-1 - Сжечь компьютер");
+            System.out.println("-2 - Пойти погулять");
+
+
 
             int command = scanner.nextInt();
 
