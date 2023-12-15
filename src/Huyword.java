@@ -7,6 +7,9 @@ class Huyword {
             System.out.println("Введите ваше слово");
             String word = scanner.nextLine();
             System.out.println("Хуй" + word + ".");
+            if (word.equals("Хуй")) {
+                break;
+            }
         }
     }
 }
